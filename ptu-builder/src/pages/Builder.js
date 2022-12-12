@@ -18,7 +18,6 @@ const Builder = () => {
     'Medicine Education': 2,
     'Occult Education': 2,
     'Pokémon Education': 2,
-    'Pokemon Education': 2,
     'Technology Education': 2,
     Focus: 2,
     Guile: 2,

@@ -578,21 +578,6 @@
                 "-"
             ]
         },
-        "PokeManiac": {
-            "Name": "PokeManiac",
-            "Effect": "Target: A Pokémon Effect: Make a Pokemon Education Check with a DC of 10. If you succeed, you determine the target's Level, Types, Nature, and Abilities.",
-            "Freq": "At-Will - Standard Action",
-            "Prereq": {
-                "Skills": {
-                    "And": {
-                        "Pokémon Education": 4
-                    }
-                }
-            },
-            "Tags": [
-                "-"
-            ]
-        },
         "Psionic Sight": {
             "Name": "Psionic Sight",
             "Effect": "You are able to visibly see any Psychic Residue left on Humans or Pokémon due to the effects of Psionic abilities. Each Human or Pokémon leaves distinct Psychic Residue on their targets; you are easily able to distinguish which targets have been affected by the same Psionic, though to identify that Psionic you need to have a way of knowing their signature (such as simply seeing them do it, and seeing the resulting signature).",
@@ -1840,6 +1825,9 @@
             "Effect": "Trigger: Your Mount with Run Up makes a Damage Roll for a Dash or Pass Move Effect: Your Pokémon adds their Speed Stat in addition to their normal attacking Stat to their Damage Roll. The target gains Damage Reduction against this attack equal to their own Speed Stat.",
             "Freq": "Scene x2 - Free Action",
             "Prereq": {
+                "Feats": [
+                    "Conqueror's March"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 5,
@@ -2814,6 +2802,9 @@
             "Effect": "Your Pokémon with at least 3d6 in their Beauty Stat from Poffins may activate Beautiful Ballet as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves. X is the Rank of the chosen Move. Rank 2: Lovely Kiss, Mean Look",
             "Freq": "X AP - Special",
             "Prereq": {
+                "Feats": [
+                    "Beautiful Ballet Rank 1"
+                ],
                 "Skills": {
                     "And": {
                         "Intuition": 5
@@ -2868,6 +2859,9 @@
             "Effect": "Your Pokémon with at least 3d6 in their Cool Stat from Poffins may activate Cool Conduct as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves. X is the Rank of the chosen Move. Rank 2: Roar, Double Team",
             "Freq": "X AP - Special",
             "Prereq": {
+                "Feats": [
+                    "Cool Conduct Rank 1"
+                ],
                 "Skills": {
                     "And": {
                         "Command": 5
@@ -2922,6 +2916,9 @@
             "Effect": "Your Pokémon with at least 3d6 in their Cute Stat from Poffins may activate Cute Cuddle as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves. X is the Rank of the chosen Move. Rank 2: Teeter Dance, Attract",
             "Freq": "X AP - Special",
             "Prereq": {
+                "Feats": [
+                    "Cute Cuddle Rank 1"
+                ],
                 "Skills": {
                     "And": {
                         "Charm": 5
@@ -2983,6 +2980,9 @@
             "Effect": "Your Pokémon with at least 3d6 in their Smart Stat from Poffins may activate Smart Scheme as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves. X is the Rank of the chosen Move. Rank 2: Taunt, Flatter",
             "Freq": "X AP - Special",
             "Prereq": {
+                "Feats": [
+                    "Smart Scheme Rank 1"
+                ],
                 "Skills": {
                     "And": {
                         "Guile": 5
@@ -3037,6 +3037,9 @@
             "Effect": "Your Pokémon with at least 3d6 in their Tough Stat from Poffins may activate Tough Tumble as a Standard Action to perform one of the following Moves. They must still follow frequency limits as usual for these Moves. X is the Rank of the chosen Move. Rank 2: Glare, Bide",
             "Freq": "X AP - Special",
             "Prereq": {
+                "Feats": [
+                    "Tough Tumble Rank 1"
+                ],
                 "Skills": {
                     "And": {
                         "Intimidate": 5
@@ -4207,6 +4210,9 @@
             "Effect": "Target: A Pokémon with 2 Tutor Points Effect: Select a Record in your Technique Archive that is of a Move that the target can learn by Level Up, TM or by Move Tutor. The target learns the Move and loses 2 Tutor Points. You can target someone else's Pokémon only once with Archive Tutor; you may target your own Pokémon any number of times with Archive Tutor, but they must still abide by any Move Pool Limitations (i.e.: no more than 3 of the target's Move Pool can come from TMs or Tutor Moves).",
             "Freq": "Daily - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Chronicler"
+                ],
                 "Skills": {
                     "And": {
                         "Perception": 5
@@ -4222,6 +4228,9 @@
             "Effect": "Target: Your Pokémon Effect: Until the end of your next turn, the target acts as if they had the Mold Breaker Ability against all Pokémon and Trainers in your Profile Archive and gains a +2 bonus to Accuracy Rolls against these targets.",
             "Freq": "2 AP - Standard Action",
             "Prereq": {
+                "Feats": [
+                    "Chronicler"
+                ],
                 "Skills": {
                     "And": {
                         "Perception": 5
@@ -4237,6 +4246,9 @@
             "Effect": "While they are in a Location in your Travel Archive, your Pokémon have the Ability you chose when gaining Travel Archive and gain a +2 bonus to Perception Checks to notice the environment.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Chronicler"
+                ],
                 "Skills": {
                     "And": {
                         "Perception": 4
@@ -4381,6 +4393,9 @@
             "Effect": "You gain three Skill Edges for which you qualify. These Edges must be used to gain a Skill Edge with an Education Skill, or to gain an Edge that has an Education Skill as a Prerequisite that you meet.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "General Education": 3
@@ -4399,6 +4414,9 @@
             "Effect": "Trigger: You or your Pokémon miss with an attack, fail a Skill Check, or fail a Save Check Effect: Add half of your General Education Rank to the next roll of the same type that the triggering user makes.",
             "Freq": "Daily x3 - Free Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "General Education": 4
@@ -4417,6 +4435,9 @@
             "Effect": "Target: Your Pokémon with at least 2 Tutor Points remaining Effect: Your Pokémon loses 2 Tutor Points and gains the Forewarn Ability.",
             "Freq": "At-Will - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "General Education": 5
@@ -4435,6 +4456,9 @@
             "Effect": "Trigger: You or your Pokémon make a roll Effect: You may roll twice and keep the best result.",
             "Freq": "Daily x2 - Free Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "General Education": 6
@@ -4453,6 +4477,9 @@
             "Effect": "You may use any Apothecary Recipe for which you qualify. Recipe - Restorative Science",
             "Freq": "At-Will - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "Medicine Education": 3
@@ -4534,6 +4561,9 @@
             "Effect": "You may use any Crystal Artificer Recipe for which you qualify. Recipes - Type Booster, Type Brace",
             "Freq": "At-Will - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Edges": [
                     "Gem Lore"
                 ]
@@ -4608,6 +4638,9 @@
             "Effect": "Target: A Willing Pokémon Effect: You become adept at harvesting Seeds and Spores from Pokémon. You may target a willing Grass-Type Pokémon that knows Sleep Powder, Stun Spore, or Poison Powder. Add this move to your Move list for the remainder of the day. You may not use Seed Bag to have multiple instances of the same move in your Move list. Seed Bag may be used twice per day per Rank.",
             "Freq": "X Daily - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "Or": {
                         "General Education": 4,
@@ -4629,6 +4662,9 @@
             "Effect": "You may also harvest Cotton Spore, Leech Seed, Spore, or Worry Seed.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Seed Bag Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "General Education": 6,
@@ -4682,6 +4718,9 @@
             "Effect": "You may craft any Chemistry Recipe for which you qualify. Recipes - Enhancers, Pester Balls: Disorient",
             "Freq": "At-Will - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Edges": [
                     "Repel Crafter"
                 ]
@@ -4761,6 +4800,9 @@
             "Effect": "You gain the Overcoat Ability.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "Survival": 3
@@ -4837,6 +4879,9 @@
             "Effect": " You gain the Psionic Sight Feature, even if you do not meet the prerequisites. If you already had the Psionic Sight Feature, you instead gain another Feature for which you qualify.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "Occult Education": 3
@@ -4913,6 +4958,9 @@
             "Effect": "Target: A Fossil you are reviving Effect: The resulting Pokémon is born with 2 fewer Tutor Points, and gains its second Basic Ability. If it has only has one Basic Ability, it gains one of its Advanced Abilities, chosen by the GM. This Feature does not affect how the Pokémon continues to gain Abilities.",
             "Freq": "At-Will - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "Pokemon Education": 3
@@ -4989,6 +5037,9 @@
             "Effect": "Your Pokémon gain the Basic Ranged Attacks, Aura Pulse, Enticing Bait, Extended Invisibility, Far Reading, Precise Threadings, Seismometer, TK Mastery, and Trail Sniffer Poke Edges automatically if they qualify for them, without having to invest any Tutor Points.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "Pokemon Education": 3
@@ -5716,6 +5767,9 @@
             "Effect": "You learn the Moves Uproar and Hyper Voice.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Cacophony"
+                ],
                 "Skills": {
                     "Or": {
                         "Charm": 5,
@@ -6486,6 +6540,9 @@
             "Effect": "Trigger: A foe within 5 meters misses all targets with an attack Effect: Use a Status-Class Move gained from Hex Maniac Studies targeting the triggering foe as a Free Action, Frequency-permitting.",
             "Freq": "Scene x2 - Free Action ",
             "Prereq": {
+                "Feats": [
+                    "Hex Maniac Studies Rank 1"
+                ],
                 "Skills": {
                     "And": {
                         "Occult Education": 5
@@ -7296,6 +7353,9 @@
             "Effect": "You may craft any Poké Ball Case Recipe for which you qualify. Recipe - Basic Cases",
             "Freq": "At-Will - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Edges": [
                     "Basic Balls"
                 ]
@@ -7381,6 +7441,9 @@
             "Effect": "You may craft any Augmentation Recipe for which you qualify and install them on yourself and willing Pokémon and Trainers. Recipes - Datajack, Eye Augments",
             "Freq": "At-Will - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "Medicine Education": 3,
@@ -7610,6 +7673,9 @@
             "Effect": "You may create Fine Weapons for $2,000, Helmets for $1,125, Heavy Shields for $2,250 and Heavy Armor for $5,000.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Smith Rank 1"
+                ],
                 "Skills": {
                     "And": {
                         "Athletics": 4,
@@ -8447,6 +8513,9 @@
             "Effect": "Learn two Moves from the list below at the Rank of Enhanced Embrace you are taking or lower. Moves marked with an Embrace require that Embrace to be chosen. Rank 2 Moves: Attack Order(Arachnid), Infestation, Powder(Monarch), Signal Beam, Steamroller",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Enhanced Embrace Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "Command": 4,
@@ -8464,6 +8533,9 @@
             "Effect": "Learn two Moves from the list below at the Rank of Enhanced Embrace you are taking or lower. Moves marked with an Embrace require that Embrace to be chosen. Rank 3 Moves: Bug Buzz, Mega Horn, Quiver Dance(Monarch), Spider Web(Arachnid)",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Enhanced Embrace Rank 2"
+                ],
                 "Skills": {
                     "Or": {
                         "Command": 5,
@@ -8678,6 +8750,9 @@
             "Effect": "You learn the Moves Dragon Rush and Outrage. You may use these Moves as Weapon Attacks when wielding Melee Weapons.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Bare the Dragon's Claws"
+                ],
                 "Skills": {
                     "Or": {
                         "Command": 6,
@@ -8750,6 +8825,9 @@
             "Effect": "You gain the Magnetic Capability and may use this magnetism to stick to surfaces with significant metal content (ex: metal walls obviously, concrete with metal I-beams inside, etc). You may use your Overland to traverse any such surfaces, even if that means walking vertically up a wall or upside down on a ceiling. You may choose not to be Pushed when on such a surface.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Spark Master"
+                ],
                 "Skills": {
                     "And": {
                         "Acrobatics": 4
@@ -8765,6 +8843,9 @@
             "Effect": "Choose Volt Absorb or Motor Drive. You gain the Chosen Ability.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Spark Master"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 6,
@@ -8781,6 +8862,9 @@
             "Effect": "Target: An item made of conductive material Effect: Choose one of your Electric Type Moves with a target. You Charge the target item with this Move. Bottled Lightning counts as using the Move for frequency purposes. You may expend this Charge as a Swift Action on your turn to use the Move the item was charged with, originating from the item. If a Pokémon or Trainer touches a Charged item, you may instead activate this Swift Action as if it had the Priority keyword. At the end of a Scene, all items lose their Charge, and you may only have X items Charged at a time where X is half your Focus Rank.",
             "Freq": "2 AP - Standard Action ",
             "Prereq": {
+                "Feats": [
+                    "Spark Master"
+                ],
                 "Skills": {
                     "And": {
                         "Focus": 4
@@ -8809,6 +8893,9 @@
             "Effect": "You may learn two Moves from the list below, marked with the Storm Wizard Rank you are gaining or lower. Rank 2 Moves: Charge, Thunder Punch, Thunderbolt",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Storm Wizard Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 5,
@@ -8825,6 +8912,9 @@
             "Effect": "You may learn two Moves from the list below, marked with the Storm Wizard Rank you are gaining or lower. Rank 3 Moves: Discharge, Thunder, Thunder Wave, Volt Tackle",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Storm Wizard Rank 2"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 6,
@@ -9023,6 +9113,9 @@
             "Effect": "Effect: You becoming Blazing. While you are Blazing, whenever your Fire-Type Moves Inflict Burn, the Burned target immediately loses a Tick of Hit Points, and loses an additional Combat Stage in Defense. While Blazing, when you hit a foe with a damaging Fire-Type Move, you may choose to automatically burn one target of the Move. If you do, you lose the Blazing Condition after the Move's effects are resolved.",
             "Freq": "2 AP - Swift Action ",
             "Prereq": {
+                "Feats": [
+                    "Fire Breather Rank 2"
+                ],
                 "Skills": {
                     "Or": {
                         "Combat": 6,
@@ -9041,6 +9134,9 @@
             "Effect": "Learn two Fire Breather Moves from the list below. Rank 1 Moves: Flamethrower, Fire Punch, Fire Spin, Sunny Day",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Fire Bringer"
+                ],
                 "Skills": {
                     "Or": {
                         "Combat": 5,
@@ -9059,6 +9155,9 @@
             "Effect": "Learn two Fire Breather Moves from the list below. You may choose any Move marked with the Fire Breather Rank you are taking or lower. Rank 2 Moves: Blaze Kick, Fiery Dance, Flare Blitz, Heat Wave",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Fire Breather Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "Combat": 6,
@@ -9094,6 +9193,9 @@
             "Effect": "Effect: You summon a windy breeze that follows you around. Your sense of touch is extended through this wind, and you can guide it by thought, using it to perceive the shape and texture of objects as long as the wind can reach, even through very small cracks and holes. The range of this effect is equal to your Acrobatics Rank plus Perception Rank in meters.",
             "Freq": "Bind 2 AP - Standard Action",
             "Prereq": {
+                "Feats": [
+                    "Wind Runner"
+                ],
                 "Skills": {
                     "And": {
                         "Perception": 4
@@ -9127,6 +9229,9 @@
             "Effect": "Choose Celebrate or Gale Wings. You gain the chosen Ability.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Raging Winds Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 6,
@@ -9158,6 +9263,9 @@
             "Effect": "You may learn two Moves from the list below, marked with the Raging Winds Rank you are gaining or lower. Rank 2 Moves: Air Slash, Bounce, Defog, Feather Dance",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Raging Winds Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 5,
@@ -9176,6 +9284,9 @@
             "Effect": "You may learn two Moves from the list below, marked with the Raging Winds Rank you are gaining or lower. Rank 3 Moves: Brave Bird, Hurricane, Mirror Move, Sky Attack",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Raging Winds Rank 2"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 6,
@@ -9226,6 +9337,9 @@
             "Effect": "While this Feature is Bound, your appearance becomes wan and obviously otherworldly. Your natural Weaknesses, Resistances, and Immunities change to match that of the Ghost Type. Additionally, while in Shadow Form, you are immune to the Cursed Status (if you were previously Cursed, you are instantly cured upon going into Shadow Form) and gain the Phasing Capability. You may unbind this Feature as a Swift Action, returning to your normal appearance.",
             "Freq": "Bind 2 AP - Swift Action",
             "Prereq": {
+                "Feats": [
+                    "Silent Assassin"
+                ],
                 "Skills": {
                     "Or": {
                         "Occult Education": 5,
@@ -9391,6 +9505,9 @@
             "Effect": "You learn 2 Moves chosen from the list below, marked with the Rank of this Feature you are gaining or lower.  Moves marked with an Oath require that Oath to be chosen. Rank 2 Moves: Aromatherapy(Flower), Energy Ball, Giga Drain(Fungal), Magical Leaf, Seed Bomb, Spiky Shield(Wood)",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Nature's Embrace Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "General Education": 4,
@@ -9408,6 +9525,9 @@
             "Effect": "You learn 2 Moves chosen from the list below, marked with the Rank of this Feature you are gaining or lower.  Moves marked with an Oath require that Oath to be chosen. Rank 3 Moves: Leech Seed, Petal Blizzard(Wood), Petal Dance(Flower), Power Whip, Solar Beam, Spore(Fungal)",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Nature's Embrace Rank 2"
+                ],
                 "Skills": {
                     "Or": {
                         "General Education": 5,
@@ -9455,6 +9575,9 @@
             "Effect": "Each Rank, choose one of Arena Trap or Lightningrod. You gain the chosen Ability.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Earth Shaker"
+                ],
                 "Skills": {
                     "Or": {
                         "Focus": 4,
@@ -9473,6 +9596,9 @@
             "Effect": "Each Rank, choose one of Arena Trap or Lightningrod. You gain the chosen Ability.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Earth Mother's Blessing Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "Focus": 6,
@@ -9582,6 +9708,9 @@
             "Effect": "Set 6 square meters of Frozen Domain within range 6. All 6 meters must be adjacent with at least one other space of Frozen Domain. All legal targets passing through these squares must make an Acrobatics check with a DC equal to 4 + twice your Survival Rank. On failure, the target is Tripped. Pokémon who are flying, levitating, or have the Naturewalk (Tundra) Capability are immune to this effect. When standing on a square affected by Frozen Domain, you may act as if you were in Hail weather. When a Fire-Type attack originates from or targets a square of Frozen Domain, that square of Frozen Domain melts and is cleared. Frozen Domain is considered a Hazard.",
             "Freq": "2 AP - Standard Action ",
             "Prereq": {
+                "Feats": [
+                    "Frost Touched"
+                ],
                 "Skills": {
                     "Or": {
                         "Athletics": 5,
@@ -9600,6 +9729,9 @@
             "Effect": "You gain the Frostbite Ability",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Frost Touched"
+                ],
                 "Skills": {
                     "Or": {
                         "Athletics": 6,
@@ -9633,6 +9765,9 @@
             "Effect": "You may learn two Moves from the list below. Rank 1 Moves: Freeze-Dry, Ice Punch, Ice Beam, Icicle Crash",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Frost Touched"
+                ],
                 "Skills": {
                     "Or": {
                         "Athletics": 5,
@@ -9653,6 +9788,9 @@
             "Effect": "You may learn two Moves from the list below, marked with the Rank of Winter's Herald you are gaining or lower. Rank 2 Moves: Avalanche, Blizzard, Frost Breath, Icicle Spear",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Winter's Herald Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "Athletics": 6,
@@ -9835,6 +9973,9 @@
             "Effect": "Choose Absorb Force, Poison Point, or Poison Touch. You gain the chosen Ability.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Miasmic"
+                ],
                 "Skills": {
                     "Or": {
                         "Guile": 4,
@@ -9940,6 +10081,9 @@
             "Effect": "Each Rank, choose one of Sturdy, Rock Head, Run Up, or Sand Veil. You gain the chosen Ability. If you choose Sand Veil, you may consider sand a 'solid surface' for the purposes of Stone Stance.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Cacophony"
+                ],
                 "Skills": {
                     "Or": {
                         "Combat": 4,
@@ -9958,6 +10102,9 @@
             "Effect": "Each Rank, choose one of Sturdy, Rock Head, Run Up, or Sand Veil. You gain the chosen Ability. If you choose Sand Veil, you may consider sand a 'solid surface' for the purposes of Stone Stance.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Rock Power Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "Combat": 5,
@@ -9976,6 +10123,9 @@
             "Effect": "You learn the Moves Rock Slide and Stealth Rock",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Stone Warrior"
+                ],
                 "Skills": {
                     "Or": {
                         "Combat": 5,
@@ -10191,6 +10341,9 @@
             "Effect": "You may activate Oceanic Feeling when either Wash Away or Storm Drain would be triggered to gain that Ability for 1 full round, if you do not already have it, and immediately Trigger it. Activating an Ability this way ignores its usual Frequency. You may use each Ability once per Scene this way.",
             "Freq": "Scene x2 - Free Action",
             "Prereq": {
+                "Feats": [
+                    "Water's Shroud"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 6,
@@ -10222,6 +10375,9 @@
             "Effect": "You learn 2 Moves chosen from the list below, marked with the Rank of this Feature you are gaining or lower. Rank 2 Moves: Bubblebeam, Waterfall, Whirlpool",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Call the Current Rank 1"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 4,
@@ -10240,6 +10396,9 @@
             "Effect": "You learn 2 Moves chosen from the list below, marked with the Rank of this Feature you are gaining or lower. Rank 3 Moves: Aqua Tail, Rain Dance, Surf",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Call the Current Rank 2"
+                ],
                 "Skills": {
                     "Or": {
                         "Acrobatics": 5,
@@ -10392,6 +10551,9 @@
             "Effect": "Target: A willing Pokémon with the Magnetic, Zapper, or Threaded Capability Effect: Choose one of the Capabilities listed in the Target line that the target Pokémon has. You create a Main or Off-Hand Equipment Item usable by Trainers that grants the user the chosen Capability. Whenever a Trainer makes Struggle Attacks using Zapper through this Item, they may choose to use your Technology Education Rank tripled in place of an offensive Stat. When this Feature is Unbound, the Equipment Item breaks and cannot be repaired. You may only have X instances of this Feature Bound at once, where X is equal to half your Technology Education Rank.",
             "Freq": "Bind 2 AP - Extended Action",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "Technology Education": 3
@@ -10481,6 +10643,9 @@
             "Effect": "You gain three Edges for which you qualify. These Edges must be used to gain a Skill Edge with an Education Skill, or to gain an Edge that has an Education Skill as a Prerequisite that you meet.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "General Education": 3
@@ -10519,6 +10684,9 @@
             "Effect": "You may use your General Education Rank to qualify for Books, instead of the Book's usual Skill Prerequisites, provided you have the normal Prerequisite at at least Novice Rank.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "Researcher"
+                ],
                 "Skills": {
                     "And": {
                         "General Education": 5
@@ -10760,7 +10928,7 @@
             "Freq": "Static",
             "Prereq": {
                 "Feats": [
-                    "Medic"
+                    "I'm A Doctor Rank 1"
                 ],
                 "Skills": {
                     "And": {
@@ -10781,6 +10949,9 @@
             "Effect": "You gain additional bonuses to using Restoratives and Features while in a Field Clinic, Poke Center, Hospital, or other dedicated healing space that lets you access supplies. »» When you trigger First Aid Expertise here, the injury that is Removed does not count towards the total number of Injuries that may be removed each day. »» When you trigger Nurse here, Bandages cure 1 Injury after three hours, in addition the injury healed after 6 hours. »» All Restoratives heal an additional 5 Hit Points. This stacks with the bonus granted by Field Clinic.",
             "Freq": "Static",
             "Prereq": {
+                "Feats": [
+                    "I am the Doctor Rank 1"
+                ],
                 "Skills": {
                     "And": {
                         "Medicine Education": 5

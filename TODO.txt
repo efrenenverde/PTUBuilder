@@ -1,2 +1,3 @@
 Arreglar feats que se montan:
-    - dasd
+    x Los Researchers todos
+    x Los elementalistas rotos
